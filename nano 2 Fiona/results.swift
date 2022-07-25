@@ -43,19 +43,29 @@ struct results: View {
                     .clipShape(RoundedRectangle(cornerRadius: 15))
                     .padding(.top,20)
                     
-                    Button("􀎀 Play Again")
-                    {
-                        print("Button Pressed")
+                    HStack{
+                        
+                            
+                           
+                        Button(action: {
+                            print("Hello World")
+                            
+                        }) {
+                            Image(systemName: "gobackward")
+                                .font(Font.system(size: 20))
+                            Text("Play Again")
+                        }
+                       
+                        .foregroundColor(.black)
+                        .font(.system(size: 20, weight: .bold))
+                        .frame(width: 162, height: 53).background(Color(red: 0.97, green: 0.74, blue: 0.31))
+                        .clipShape(RoundedRectangle(cornerRadius: 15))
+                        .padding(.top,20)
                     }
-                    .foregroundColor(.black)
-                    .font(.system(size: 20, weight: .bold))
-                    .frame(width: 162, height: 53).background(Color(red: 0.97, green: 0.74, blue: 0.31))
-                    .clipShape(RoundedRectangle(cornerRadius: 15))
-                    .padding(.top,20)
+                    
                 }
                 .padding(.top,40)
                 
-            
             }
             
         }
