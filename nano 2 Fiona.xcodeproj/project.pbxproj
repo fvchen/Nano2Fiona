@@ -15,6 +15,7 @@
 		52514761288EA1CC008D2638 /* OnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52514760288EA1CC008D2638 /* OnBoarding.swift */; };
 		52514763288EB84A008D2638 /* AppleiOSUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52514762288EB84A008D2638 /* AppleiOSUI.swift */; };
 		52514765288EB892008D2638 /* LearnAppleiOSUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52514764288EB892008D2638 /* LearnAppleiOSUI.swift */; };
+		52514767288EBD08008D2638 /* results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52514766288EBD08008D2638 /* results.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		52514760288EA1CC008D2638 /* OnBoarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding.swift; sourceTree = "<group>"; };
 		52514762288EB84A008D2638 /* AppleiOSUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleiOSUI.swift; sourceTree = "<group>"; };
 		52514764288EB892008D2638 /* LearnAppleiOSUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnAppleiOSUI.swift; sourceTree = "<group>"; };
+		52514766288EBD08008D2638 /* results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = results.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				52514760288EA1CC008D2638 /* OnBoarding.swift */,
 				52514762288EB84A008D2638 /* AppleiOSUI.swift */,
 				52514764288EB892008D2638 /* LearnAppleiOSUI.swift */,
+				52514766288EBD08008D2638 /* results.swift */,
 			);
 			path = "nano 2 Fiona";
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			files = (
 				5251475F288E9FBC008D2638 /* SplashScreen.swift in Sources */,
 				52514753288E82B9008D2638 /* ContentView.swift in Sources */,
+				52514767288EBD08008D2638 /* results.swift in Sources */,
 				52514763288EB84A008D2638 /* AppleiOSUI.swift in Sources */,
 				52514761288EA1CC008D2638 /* OnBoarding.swift in Sources */,
 				52514751288E82B9008D2638 /* nano_2_FionaApp.swift in Sources */,
