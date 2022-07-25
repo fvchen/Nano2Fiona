@@ -11,6 +11,8 @@
 		52514753288E82B9008D2638 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52514752288E82B9008D2638 /* ContentView.swift */; };
 		52514755288E82BB008D2638 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52514754288E82BB008D2638 /* Assets.xcassets */; };
 		52514758288E82BB008D2638 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52514757288E82BB008D2638 /* Preview Assets.xcassets */; };
+		5251475F288E9FBC008D2638 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251475E288E9FBC008D2638 /* SplashScreen.swift */; };
+		52514761288EA1CC008D2638 /* OnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52514760288EA1CC008D2638 /* OnBoarding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		52514752288E82B9008D2638 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		52514754288E82BB008D2638 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52514757288E82BB008D2638 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5251475E288E9FBC008D2638 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		52514760288EA1CC008D2638 /* OnBoarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				52514752288E82B9008D2638 /* ContentView.swift */,
 				52514754288E82BB008D2638 /* Assets.xcassets */,
 				52514756288E82BB008D2638 /* Preview Content */,
+				5251475E288E9FBC008D2638 /* SplashScreen.swift */,
+				52514760288EA1CC008D2638 /* OnBoarding.swift */,
 			);
 			path = "nano 2 Fiona";
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5251475F288E9FBC008D2638 /* SplashScreen.swift in Sources */,
 				52514753288E82B9008D2638 /* ContentView.swift in Sources */,
+				52514761288EA1CC008D2638 /* OnBoarding.swift in Sources */,
 				52514751288E82B9008D2638 /* nano_2_FionaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
