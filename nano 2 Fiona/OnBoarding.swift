@@ -15,14 +15,15 @@ struct OnBoarding: View {
                 Text("Welcome to")
                     .foregroundColor(.white)
                     .font(.system(size: 30, weight: .bold))
+                    .padding(.top,30)
                 Text("i qUIz")
                     .foregroundColor(.white)
                     .font(.system(size: 40, weight: .bold))
-                    .padding(.top,2)
+                    .padding(.top,1)
                 Image("quiz-1")
                     .resizable()
                     .frame(width: 199, height: 144)
-                    .padding(.top,40)
+                    .padding(.top,30)
                 HStack{
                     Image("ipad-1")
                         .resizable()
@@ -34,7 +35,7 @@ struct OnBoarding: View {
                         .lineLimit(2)
                         .frame(width: 205)
                 }
-                .padding(.top,70)
+                .padding(.top,60)
                 HStack{
                     Image("icon-1")
                         .resizable()
@@ -47,7 +48,8 @@ struct OnBoarding: View {
                         .lineLimit(3)
                         .frame(width: 205)
                 }
-                .padding(.top,50)
+                .padding(.top,35)
+                
                 Button("Get Started")
                 {
                     print("Button Pressed")
@@ -56,8 +58,9 @@ struct OnBoarding: View {
                 .font(.system(size: 20, weight: .bold))
                 .frame(width: 231, height: 51).background(Color(red: 0.97, green: 0.74, blue: 0.31))
                 .clipShape(RoundedRectangle(cornerRadius: 15))
-                
+                .padding(.top,100)
             }
+            
         }
         .ignoresSafeArea()
        
