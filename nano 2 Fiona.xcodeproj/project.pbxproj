@@ -7,18 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5217BB87288FD92800B7FE36 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5217BB86288FD92800B7FE36 /* TabBarView.swift */; };
+		5217BB89288FE40300B7FE36 /* AppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5217BB88288FE40300B7FE36 /* AppStateManager.swift */; };
+		5217BB8B288FE95100B7FE36 /* AppleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5217BB8A288FE95100B7FE36 /* AppleView.swift */; };
+		5217BB8D288FE96700B7FE36 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5217BB8C288FE96700B7FE36 /* QuizView.swift */; };
+		5217BB8F288FE97200B7FE36 /* AchievementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5217BB8E288FE97200B7FE36 /* AchievementView.swift */; };
 		52514751288E82B9008D2638 /* nano_2_FionaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52514750288E82B9008D2638 /* nano_2_FionaApp.swift */; };
 		52514753288E82B9008D2638 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52514752288E82B9008D2638 /* ContentView.swift */; };
 		52514755288E82BB008D2638 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52514754288E82BB008D2638 /* Assets.xcassets */; };
 		52514758288E82BB008D2638 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52514757288E82BB008D2638 /* Preview Assets.xcassets */; };
 		5251475F288E9FBC008D2638 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251475E288E9FBC008D2638 /* SplashScreen.swift */; };
 		52514761288EA1CC008D2638 /* OnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52514760288EA1CC008D2638 /* OnBoarding.swift */; };
-		52514763288EB84A008D2638 /* AppleiOSUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52514762288EB84A008D2638 /* AppleiOSUI.swift */; };
 		52514765288EB892008D2638 /* LearnAppleiOSUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52514764288EB892008D2638 /* LearnAppleiOSUI.swift */; };
 		52514767288EBD08008D2638 /* results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52514766288EBD08008D2638 /* results.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5217BB86288FD92800B7FE36 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		5217BB88288FE40300B7FE36 /* AppStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateManager.swift; sourceTree = "<group>"; };
+		5217BB8A288FE95100B7FE36 /* AppleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleView.swift; sourceTree = "<group>"; };
+		5217BB8C288FE96700B7FE36 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		5217BB8E288FE97200B7FE36 /* AchievementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementView.swift; sourceTree = "<group>"; };
 		5251474D288E82B9008D2638 /* nano 2 Fiona.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nano 2 Fiona.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52514750288E82B9008D2638 /* nano_2_FionaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nano_2_FionaApp.swift; sourceTree = "<group>"; };
 		52514752288E82B9008D2638 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -26,7 +35,6 @@
 		52514757288E82BB008D2638 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5251475E288E9FBC008D2638 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		52514760288EA1CC008D2638 /* OnBoarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding.swift; sourceTree = "<group>"; };
-		52514762288EB84A008D2638 /* AppleiOSUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleiOSUI.swift; sourceTree = "<group>"; };
 		52514764288EB892008D2638 /* LearnAppleiOSUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnAppleiOSUI.swift; sourceTree = "<group>"; };
 		52514766288EBD08008D2638 /* results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = results.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,9 +75,13 @@
 				52514756288E82BB008D2638 /* Preview Content */,
 				5251475E288E9FBC008D2638 /* SplashScreen.swift */,
 				52514760288EA1CC008D2638 /* OnBoarding.swift */,
-				52514762288EB84A008D2638 /* AppleiOSUI.swift */,
 				52514764288EB892008D2638 /* LearnAppleiOSUI.swift */,
 				52514766288EBD08008D2638 /* results.swift */,
+				5217BB86288FD92800B7FE36 /* TabBarView.swift */,
+				5217BB8A288FE95100B7FE36 /* AppleView.swift */,
+				5217BB8C288FE96700B7FE36 /* QuizView.swift */,
+				5217BB8E288FE97200B7FE36 /* AchievementView.swift */,
+				5217BB88288FE40300B7FE36 /* AppStateManager.swift */,
 			);
 			path = "nano 2 Fiona";
 			sourceTree = "<group>";
@@ -154,10 +166,14 @@
 			files = (
 				5251475F288E9FBC008D2638 /* SplashScreen.swift in Sources */,
 				52514753288E82B9008D2638 /* ContentView.swift in Sources */,
+				5217BB8D288FE96700B7FE36 /* QuizView.swift in Sources */,
+				5217BB87288FD92800B7FE36 /* TabBarView.swift in Sources */,
+				5217BB8F288FE97200B7FE36 /* AchievementView.swift in Sources */,
 				52514767288EBD08008D2638 /* results.swift in Sources */,
-				52514763288EB84A008D2638 /* AppleiOSUI.swift in Sources */,
 				52514761288EA1CC008D2638 /* OnBoarding.swift in Sources */,
 				52514751288E82B9008D2638 /* nano_2_FionaApp.swift in Sources */,
+				5217BB8B288FE95100B7FE36 /* AppleView.swift in Sources */,
+				5217BB89288FE40300B7FE36 /* AppStateManager.swift in Sources */,
 				52514765288EB892008D2638 /* LearnAppleiOSUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
