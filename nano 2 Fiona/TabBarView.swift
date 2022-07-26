@@ -31,10 +31,20 @@ struct TabBarView: View {
         ZStack {
             correctViewForState()
             VStack{
+                ZStack{
+                    Color(red: 0.15, green: 0.22, blue: 0.37)
+                    if (appState.selectedTab == .apple) {
+                        Text("Appe iOS UI")
+                    }else if (appState.selectedTab == .achievement) {
+                        Text("achievements")
+                    }
+                }
+                .frame(width: UIScreen.main.bounds.width, height: 86)
                 Spacer()
                 ZStack{
                     Color(red: 0.15, green: 0.22, blue: 0.37)
                     HStack{
+                        Spacer()
                         Button(action: {appState.selectedTab = .apple }, label: {
                             VStack{
                                 Image(systemName:appState.selectedTab == .apple ? "list.bullet.rectangle.fill" : "list.bullet.rectangle")
@@ -42,7 +52,7 @@ struct TabBarView: View {
                             }.foregroundColor(.white)
                             
                         })
-                        
+                        Spacer()
                         Button(action: {appState.selectedTab = .quiz}, label: {
                             VStack{
                                 RoundedRectangle(cornerRadius: 68/2)
@@ -52,7 +62,7 @@ struct TabBarView: View {
                             }.foregroundColor(.white)
                             
                         })
-                        
+                        Spacer()
                         Button(action: {appState.selectedTab = .achievement}, label: {
                             VStack{
                                 Image(systemName:appState.selectedTab == .achievement ? "chart.bar.fill" : "chart.bar")
@@ -60,6 +70,7 @@ struct TabBarView: View {
                             }.foregroundColor(.white)
                             
                         })
+                        Spacer()
                     }
                 }
                 .frame(width: UIScreen.main.bounds.width, height: 86)
