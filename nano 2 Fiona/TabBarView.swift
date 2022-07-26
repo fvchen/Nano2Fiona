@@ -35,11 +35,17 @@ struct TabBarView: View {
                     Color(red: 0.15, green: 0.22, blue: 0.37)
                     if (appState.selectedTab == .apple) {
                         Text("Appe iOS UI")
+                            .foregroundColor(.white)
+                            .font(.system(size: 30, weight: .bold))
+                            .padding(.top,30)
                     }else if (appState.selectedTab == .achievement) {
-                        Text("achievements")
+                        Text("Achievements")
+                            .foregroundColor(.white)
+                            .font(.system(size: 30, weight: .bold))
+                            .padding(.top,30)
                     }
                 }
-                .frame(width: UIScreen.main.bounds.width, height: 86)
+                .frame(width: UIScreen.main.bounds.width, height: 112)
                 Spacer()
                 ZStack{
                     Color(red: 0.15, green: 0.22, blue: 0.37)
