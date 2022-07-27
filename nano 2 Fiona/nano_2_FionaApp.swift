@@ -11,7 +11,7 @@ import SwiftUI
 struct nano_2_FionaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreen()
         }
     }
 }
