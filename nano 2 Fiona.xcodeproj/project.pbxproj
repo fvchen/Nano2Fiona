@@ -21,6 +21,7 @@
 		52514765288EB892008D2638 /* LearnAppleiOSUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52514764288EB892008D2638 /* LearnAppleiOSUI.swift */; };
 		52514767288EBD08008D2638 /* results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52514766288EBD08008D2638 /* results.swift */; };
 		5276D923289126B900ED2FAD /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5276D922289126B900ED2FAD /* Extension.swift */; };
+		5276D92528914EDE00ED2FAD /* Bars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5276D92428914EDE00ED2FAD /* Bars.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		52514764288EB892008D2638 /* LearnAppleiOSUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnAppleiOSUI.swift; sourceTree = "<group>"; };
 		52514766288EBD08008D2638 /* results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = results.swift; sourceTree = "<group>"; };
 		5276D922289126B900ED2FAD /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		5276D92428914EDE00ED2FAD /* Bars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bars.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				5217BB8E288FE97200B7FE36 /* AchievementView.swift */,
 				5217BB88288FE40300B7FE36 /* AppStateManager.swift */,
 				5276D922289126B900ED2FAD /* Extension.swift */,
+				5276D92428914EDE00ED2FAD /* Bars.swift */,
 			);
 			path = "nano 2 Fiona";
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 				5217BB8F288FE97200B7FE36 /* AchievementView.swift in Sources */,
 				52514767288EBD08008D2638 /* results.swift in Sources */,
 				52514761288EA1CC008D2638 /* OnBoarding.swift in Sources */,
+				5276D92528914EDE00ED2FAD /* Bars.swift in Sources */,
 				52514751288E82B9008D2638 /* nano_2_FionaApp.swift in Sources */,
 				5217BB8B288FE95100B7FE36 /* AppleView.swift in Sources */,
 				5217BB89288FE40300B7FE36 /* AppStateManager.swift in Sources */,

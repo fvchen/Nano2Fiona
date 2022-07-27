@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct LearnAppleiOSUI: View {
+    @Environment(\.dismiss) var dismiss
+    
     var body: some View {
        
         ZStack {
@@ -55,7 +57,7 @@ struct LearnAppleiOSUI: View {
                 
                 Button("Okay")
                 {
-                    print("Button Pressed")
+                    dismiss()
                 }
                 .foregroundColor(.black)
                 .font(.system(size: 20, weight: .bold))
