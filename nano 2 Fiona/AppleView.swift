@@ -11,32 +11,25 @@ struct AppleView: View {
     var body: some View {
         
         VStack{
-                Button(action: {
-                    print("Hello World")
-                }) {
-                    Image(systemName: "info.circle")
-                        .font(Font.system(size: 24))
-                        .padding(.top,30)
-                }
-                .foregroundColor(.black)
-                .font(.system(size: 20, weight: .bold))
-                .frame(width: 24, height: 23)
+                
                    
             Text("Here are some component categories of Apple iOS UI, click for more information")
                 .foregroundColor(.black)
                 .font(.system(size: 16, weight: .bold))
                 .lineLimit(2)
                 .frame(width: 337)
-                .padding(.top,30)
+                .padding(.top,1)
             
             Button(action: {
                 print("Hello World")
                 
             }) {
                 Text("Bars")
-                    .padding(.trailing, 210)
+                    .padding(.leading, 30)
+                Spacer()
                 Image(systemName: "chevron.forward")
                     .font(Font.system(size: 24))
+                    .padding(.trailing,30)
             }
            
             .foregroundColor(.black)
@@ -50,10 +43,11 @@ struct AppleView: View {
                 
             }) {
                 Text("Controls")
-                    .padding(.trailing, 210)
-
+                    .padding(.leading, 30)
+                Spacer()
                 Image(systemName: "chevron.forward")
                     .font(Font.system(size: 24))
+                    .padding(.trailing,30)
             }
            
             .foregroundColor(.black)
@@ -67,9 +61,11 @@ struct AppleView: View {
                 
             }) {
                 Text("Device Bezels")
-                    .padding(.trailing, 210)
+                    .padding(.leading, 30)
+                Spacer()
                 Image(systemName: "chevron.forward")
                     .font(Font.system(size: 24))
+                    .padding(.trailing,30)
             }
            
             .foregroundColor(.black)
@@ -83,9 +79,11 @@ struct AppleView: View {
                 
             }) {
                 Text("System")
-                    .padding(.trailing, 210)
+                    .padding(.leading, 30)
+                Spacer()
                 Image(systemName: "chevron.forward")
                     .font(Font.system(size: 24))
+                    .padding(.trailing,30)
             }
            
             .foregroundColor(.black)
@@ -99,9 +97,12 @@ struct AppleView: View {
                 
             }) {
                 Text("Views")
-                    .padding(.trailing, 210)
+
+                    .padding(.leading, 30)
+                Spacer()
                 Image(systemName: "chevron.forward")
                     .font(Font.system(size: 24))
+                    .padding(.trailing,30)
             }
            
             .foregroundColor(.black)
