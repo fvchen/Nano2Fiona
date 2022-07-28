@@ -69,6 +69,7 @@ struct TabBarView: View {
                 }
                 .frame(width: UIScreen.main.bounds.width, height: 112)
                 Spacer()
+                
                 ZStack{
                     Color(red: 0.15, green: 0.22, blue: 0.37)
                     HStack{
