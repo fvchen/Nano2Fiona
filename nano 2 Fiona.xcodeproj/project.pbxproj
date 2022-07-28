@@ -22,6 +22,7 @@
 		52514767288EBD08008D2638 /* results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52514766288EBD08008D2638 /* results.swift */; };
 		5276D923289126B900ED2FAD /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5276D922289126B900ED2FAD /* Extension.swift */; };
 		5276D92528914EDE00ED2FAD /* Bars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5276D92428914EDE00ED2FAD /* Bars.swift */; };
+		527EA306289282C6003DA52B /* Controls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527EA305289282C6003DA52B /* Controls.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		52514766288EBD08008D2638 /* results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = results.swift; sourceTree = "<group>"; };
 		5276D922289126B900ED2FAD /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		5276D92428914EDE00ED2FAD /* Bars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bars.swift; sourceTree = "<group>"; };
+		527EA305289282C6003DA52B /* Controls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controls.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				5217BB88288FE40300B7FE36 /* AppStateManager.swift */,
 				5276D922289126B900ED2FAD /* Extension.swift */,
 				5276D92428914EDE00ED2FAD /* Bars.swift */,
+				527EA305289282C6003DA52B /* Controls.swift */,
 			);
 			path = "nano 2 Fiona";
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 				5251475F288E9FBC008D2638 /* SplashScreen.swift in Sources */,
 				52514753288E82B9008D2638 /* ContentView.swift in Sources */,
 				5217BB8D288FE96700B7FE36 /* QuizView.swift in Sources */,
+				527EA306289282C6003DA52B /* Controls.swift in Sources */,
 				5276D923289126B900ED2FAD /* Extension.swift in Sources */,
 				5217BB87288FD92800B7FE36 /* TabBarView.swift in Sources */,
 				5217BB8F288FE97200B7FE36 /* AchievementView.swift in Sources */,
