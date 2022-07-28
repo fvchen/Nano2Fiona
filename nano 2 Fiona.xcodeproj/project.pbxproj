@@ -25,6 +25,7 @@
 		527EA306289282C6003DA52B /* Controls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527EA305289282C6003DA52B /* Controls.swift */; };
 		527EA308289291C4003DA52B /* Bezels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527EA307289291C4003DA52B /* Bezels.swift */; };
 		527EA30A2892940D003DA52B /* System.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527EA3092892940D003DA52B /* System.swift */; };
+		527EA30C2892A698003DA52B /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527EA30B2892A698003DA52B /* Views.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		527EA305289282C6003DA52B /* Controls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controls.swift; sourceTree = "<group>"; };
 		527EA307289291C4003DA52B /* Bezels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bezels.swift; sourceTree = "<group>"; };
 		527EA3092892940D003DA52B /* System.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = System.swift; sourceTree = "<group>"; };
+		527EA30B2892A698003DA52B /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				527EA305289282C6003DA52B /* Controls.swift */,
 				527EA307289291C4003DA52B /* Bezels.swift */,
 				527EA3092892940D003DA52B /* System.swift */,
+				527EA30B2892A698003DA52B /* Views.swift */,
 			);
 			path = "nano 2 Fiona";
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				527EA308289291C4003DA52B /* Bezels.swift in Sources */,
 				5276D92528914EDE00ED2FAD /* Bars.swift in Sources */,
 				52514751288E82B9008D2638 /* nano_2_FionaApp.swift in Sources */,
+				527EA30C2892A698003DA52B /* Views.swift in Sources */,
 				527EA30A2892940D003DA52B /* System.swift in Sources */,
 				5217BB8B288FE95100B7FE36 /* AppleView.swift in Sources */,
 				5217BB89288FE40300B7FE36 /* AppStateManager.swift in Sources */,

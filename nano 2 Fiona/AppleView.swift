@@ -104,7 +104,7 @@ struct AppleView: View {
             .padding(.top,12)
             }
             
-            
+            NavigationLink(destination: Views()) {
             Button(action: {
                 print("Hello World")
                 
@@ -123,6 +123,7 @@ struct AppleView: View {
             .frame(width: 350, height: 89).background(Color(red: 0.64, green: 0.59, blue: 1.00))
             .clipShape(RoundedRectangle(cornerRadius: 15))
             .padding(.top,12)
+        }
         }
     }
 }
