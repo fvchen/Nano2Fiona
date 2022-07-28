@@ -20,23 +20,25 @@ struct AppleView: View {
                 .frame(width: 337)
                 .padding(.top,1)
             
-            Button(action: {
-                print("Hello World")
-                
-            }) {
-                Text("Bars")
-                    .padding(.leading, 30)
-                Spacer()
-                Image(systemName: "chevron.forward")
-                    .font(Font.system(size: 24))
-                    .padding(.trailing,30)
-            }
-           
-            .foregroundColor(.black)
-            .font(.system(size: 20, weight: .bold))
-            .frame(width: 350, height: 89).background(Color(red: 1.00, green: 0.58, blue: 0.52))
-            .clipShape(RoundedRectangle(cornerRadius: 15))
+            NavigationLink(destination: Bars()) {
+                Button(action: {
+                    print("Hello World")
+                    
+                }) {
+                    Text("Bars")
+                        .padding(.leading, 30)
+                    Spacer()
+                    Image(systemName: "chevron.forward")
+                        .font(Font.system(size: 24))
+                        .padding(.trailing,30)
+                }
+               
+                .foregroundColor(.black)
+                .font(.system(size: 20, weight: .bold))
+                .frame(width: 350, height: 89).background(Color(red: 1.00, green: 0.58, blue: 0.52))
+                .clipShape(RoundedRectangle(cornerRadius: 15))
             .padding(.top,12)
+            }
             
             Button(action: {
                 print("Hello World")

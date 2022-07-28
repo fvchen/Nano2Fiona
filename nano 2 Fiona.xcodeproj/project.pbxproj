@@ -23,6 +23,7 @@
 		5276D923289126B900ED2FAD /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5276D922289126B900ED2FAD /* Extension.swift */; };
 		5276D92528914EDE00ED2FAD /* Bars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5276D92428914EDE00ED2FAD /* Bars.swift */; };
 		527EA306289282C6003DA52B /* Controls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527EA305289282C6003DA52B /* Controls.swift */; };
+		527EA308289291C4003DA52B /* Bezels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527EA307289291C4003DA52B /* Bezels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		5276D922289126B900ED2FAD /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		5276D92428914EDE00ED2FAD /* Bars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bars.swift; sourceTree = "<group>"; };
 		527EA305289282C6003DA52B /* Controls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controls.swift; sourceTree = "<group>"; };
+		527EA307289291C4003DA52B /* Bezels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bezels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				5276D922289126B900ED2FAD /* Extension.swift */,
 				5276D92428914EDE00ED2FAD /* Bars.swift */,
 				527EA305289282C6003DA52B /* Controls.swift */,
+				527EA307289291C4003DA52B /* Bezels.swift */,
 			);
 			path = "nano 2 Fiona";
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				5217BB8F288FE97200B7FE36 /* AchievementView.swift in Sources */,
 				52514767288EBD08008D2638 /* results.swift in Sources */,
 				52514761288EA1CC008D2638 /* OnBoarding.swift in Sources */,
+				527EA308289291C4003DA52B /* Bezels.swift in Sources */,
 				5276D92528914EDE00ED2FAD /* Bars.swift in Sources */,
 				52514751288E82B9008D2638 /* nano_2_FionaApp.swift in Sources */,
 				5217BB8B288FE95100B7FE36 /* AppleView.swift in Sources */,
