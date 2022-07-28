@@ -8,7 +8,9 @@
 import SwiftUI
 
 struct AppleView: View {
+   // @State var bars = false
     var body: some View {
+        
         
         VStack{
                 
@@ -40,6 +42,8 @@ struct AppleView: View {
             .padding(.top,12)
             }
             
+            
+            NavigationLink(destination: Controls()) {
             Button(action: {
                 print("Hello World")
                 
@@ -57,7 +61,9 @@ struct AppleView: View {
             .frame(width: 350, height: 89).background(Color(red: 1.00, green: 0.69, blue: 0.48))
             .clipShape(RoundedRectangle(cornerRadius: 15))
             .padding(.top,12)
+            }
             
+            NavigationLink(destination: Bezels()) {
             Button(action: {
                 print("Hello World")
                 
@@ -75,7 +81,10 @@ struct AppleView: View {
             .frame(width: 350, height: 89).background(Color(red: 0.97, green: 0.74, blue: 0.31))
             .clipShape(RoundedRectangle(cornerRadius: 15))
             .padding(.top,12)
+            }
             
+            
+            NavigationLink(destination: System()) {
             Button(action: {
                 print("Hello World")
                 
@@ -93,6 +102,8 @@ struct AppleView: View {
             .frame(width: 350, height: 89).background(Color(red: 0.55, green: 0.78, blue: 1.00))
             .clipShape(RoundedRectangle(cornerRadius: 15))
             .padding(.top,12)
+            }
+            
             
             Button(action: {
                 print("Hello World")

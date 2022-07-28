@@ -37,7 +37,7 @@ struct TabBarView: View {
                     
                     if (appState.selectedTab == .apple) {
                         HStack{
-                        Text("Appe iOS UI")
+                        Text("Apple iOS UI")
                             .foregroundColor(.white)
                             .font(.system(size: 30, weight: .bold))
                             .padding(.top,30)

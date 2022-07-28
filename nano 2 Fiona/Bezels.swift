@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct Bezels: View {
+    @Environment(\.presentationMode) var mode: Binding<PresentationMode>
     var body: some View {
         ZStack {
             Color(red: 0.96, green: 0.96, blue: 0.96)
@@ -45,6 +46,8 @@ struct Bezels: View {
                 }
                 
         }
+            .navigationBarHidden(true)
+            
             ZStack{
                 Color(red: 0.15, green: 0.22, blue: 0.37)
                 .frame(width: UIScreen.main.bounds.width, height: 112)
@@ -52,7 +55,7 @@ struct Bezels: View {
                     
                     Button(action: {
                         print("Hello World")
-                        
+                        self.mode.wrappedValue.dismiss()
                     }) {
                         Image(systemName: "chevron.backward")
                             .font(Font.system(size: 24, weight: .bold))
