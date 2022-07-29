@@ -78,15 +78,22 @@ struct TabBarView: View {
                             VStack{
                                 Image(systemName:appState.selectedTab == .apple ? "list.bullet.rectangle.fill" : "list.bullet.rectangle")
                                 Text("Apple iOS UI")
+                                    .padding(.top, 5)
                             }.foregroundColor(.white)
                             
                         })
                         Spacer()
                         Button(action: {appState.selectedTab = .quiz}, label: {
                             VStack{
-                                RoundedRectangle(cornerRadius: 68/2)
+                                ZStack{
+                                    RoundedRectangle(cornerRadius: 68/2)
                                     .frame(width: 68, height: 68)
                                     .foregroundColor(Color(red: 0.97, green: 0.74, blue: 0.31))
+                                    Image(systemName: "gamecontroller")
+                                        .font(Font.system(size: 32, weight: .bold)
+                                )
+                                        .foregroundColor(Color(red: 0.15, green: 0.22, blue: 0.37))
+                                }
                                 Text("Quiz")
                             }.foregroundColor(.white)
                             
@@ -96,6 +103,7 @@ struct TabBarView: View {
                             VStack{
                                 Image(systemName:appState.selectedTab == .achievement ? "chart.bar.fill" : "chart.bar")
                                 Text("Achievements")
+                                    .padding(.top, 5)
                             }.foregroundColor(.white)
                             
                         })
